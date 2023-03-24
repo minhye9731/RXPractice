@@ -37,6 +37,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1AFE1E29CDEF0C00E18459 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0EB88CF1298EA9A600D7D96F /* ViewController.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0E1AFE1F29CDEF1600E18459 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0EB88CED298EA9A600D7D96F /* AppDelegate.swift */,
+				0EB88CEF298EA9A600D7D96F /* SceneDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		0E1AFE2029CDEF2800E18459 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0EB88CF3298EA9A600D7D96F /* Main.storyboard */,
+				0EB88CF6298EA9A700D7D96F /* Assets.xcassets */,
+				0EB88CF8298EA9A700D7D96F /* LaunchScreen.storyboard */,
+				0EB88CFB298EA9A700D7D96F /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		0EB88CE1298EA9A600D7D96F = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +84,9 @@
 		0EB88CEC298EA9A600D7D96F /* RXPractice */ = {
 			isa = PBXGroup;
 			children = (
-				0EB88CED298EA9A600D7D96F /* AppDelegate.swift */,
-				0EB88CEF298EA9A600D7D96F /* SceneDelegate.swift */,
-				0EB88CF1298EA9A600D7D96F /* ViewController.swift */,
-				0EB88CF3298EA9A600D7D96F /* Main.storyboard */,
-				0EB88CF6298EA9A700D7D96F /* Assets.xcassets */,
-				0EB88CF8298EA9A700D7D96F /* LaunchScreen.storyboard */,
-				0EB88CFB298EA9A700D7D96F /* Info.plist */,
+				0E1AFE2029CDEF2800E18459 /* Resource */,
+				0E1AFE1F29CDEF1600E18459 /* Application */,
+				0E1AFE1E29CDEF0C00E18459 /* Presenter */,
 			);
 			path = RXPractice;
 			sourceTree = "<group>";
